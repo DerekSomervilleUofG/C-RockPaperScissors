@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.0": {
+      "sha512": "pNK5JcHxiTszAE739ClwqHFBJPWNJoi1Nc+Vgt+W7v10TTwXdglIczeh03w6aXHwQuia6iWBPu9cG2pD/UzP8Q==",
+      "type": "package",
+      "path": "microsoftvisualstudioqualitytoolsunittestframework/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll",
+        "microsoftvisualstudioqualitytoolsunittestframework.1.0.0.nupkg.sha512",
+        "microsoftvisualstudioqualitytoolsunittestframework.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MicrosoftVisualStudioQualityToolsUnitTestFramework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ds267f\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ds267f\\Documents\\github\\DerekSomervilleUofG\\CSharpRockPaperScissors\\Rock\\Rock.csproj",
+      "projectName": "Rock",
+      "projectPath": "C:\\Users\\ds267f\\Documents\\github\\DerekSomervilleUofG\\CSharpRockPaperScissors\\Rock\\Rock.csproj",
+      "packagesPath": "C:\\Users\\ds267f\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ds267f\\Documents\\github\\DerekSomervilleUofG\\CSharpRockPaperScissors\\Rock\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ds267f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MicrosoftVisualStudioQualityToolsUnitTestFramework": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.20, 3.1.20]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MicrosoftVisualStudioQualityToolsUnitTestFramework 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MicrosoftVisualStudioQualityToolsUnitTestFramework",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

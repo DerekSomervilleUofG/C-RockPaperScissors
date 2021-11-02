@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rock/1.0.0": {
+        "dependencies": {
+          "MicrosoftVisualStudioQualityToolsUnitTestFramework": "1.0.0"
+        },
+        "runtime": {
+          "Rock.dll": {}
+        }
+      },
+      "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.0": {
+        "runtime": {
+          "lib/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "12.0.21005.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicrosoftVisualStudioQualityToolsUnitTestFramework/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNK5JcHxiTszAE739ClwqHFBJPWNJoi1Nc+Vgt+W7v10TTwXdglIczeh03w6aXHwQuia6iWBPu9cG2pD/UzP8Q==",
+      "path": "microsoftvisualstudioqualitytoolsunittestframework/1.0.0",
+      "hashPath": "microsoftvisualstudioqualitytoolsunittestframework.1.0.0.nupkg.sha512"
+    }
+  }
+}
