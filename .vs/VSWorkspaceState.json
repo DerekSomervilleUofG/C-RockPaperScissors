@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.idea",
+    "\\.idea\\.idea.CSharpRockPaperScissors.dir",
+    "\\.idea\\.idea.CSharpRockPaperScissors.dir\\.idea",
+    "\\Rock",
+    "\\Rock\\bin",
+    "\\Rock\\bin\\Debug",
+    "\\Rock\\bin\\Debug\\netcoreapp3.1"
+  ],
+  "PreviewInSolutionExplorer": false
+}

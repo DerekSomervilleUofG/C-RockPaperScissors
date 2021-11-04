@@ -5,19 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eceb422-cfd7-4ad9-8255-bfd985cb98a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpRockPaperScissors.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpRockPaperScissors.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpRockPaperScissors.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpRockPaperScissors.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rock/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rock/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Config/properties.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/log/computerInputLog.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/log/userInputLog.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/log/userOutputLog.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpRockPaperScissors.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpRockPaperScissors.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/Rock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/Rock.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/TestRock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Rock.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Rock.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Rock.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Rock.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Rock.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/bin/Debug/netcoreapp3.1/Rock.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/Rock.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Debug/netcoreapp3.1/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Release/netcoreapp3.1/Rock.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Release/netcoreapp3.1/Rock.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Release/netcoreapp3.1/Rock.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Rock.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Rock.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/Rock.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rock/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635854293238</updated>
-      <workItem from="1635854338346" duration="364000" />
+      <workItem from="1635854338346" duration="756000" />
+      <workItem from="1636027151523" duration="374000" />
     </task>
     <servers />
   </component>
@@ -80,7 +103,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -92,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

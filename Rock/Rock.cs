@@ -169,11 +169,35 @@ namespace Rock
         public string[] getConfig()
         {
 
-            string configPath = "resource/Config/properties.cfg";
+            fixWorkingDirectory();
+            string[] propertyData = null;
 
-            string[] propertyData = File.ReadAllLines(configPath);
+            string configPath = "resource/Config/properties.cfg";
+            try 
+            { 
+
+                propertyData = File.ReadAllLines(configPath);
+            }
+            catch (FileNotFoundException e)
+            {
+                Console.WriteLine("getConfig");
+                Console.WriteLine(e.Message);
+                Console.WriteLine(System.IO.Directory.GetCurrentDirectory());
+            }
 
             return propertyData;
+        }
+
+        private void fixWorkingDirectory()
+        {
+            String currentDirectory = System.IO.Directory.GetCurrentDirectory();
+            Console.WriteLine(currentDirectory);
+            while (currentDirectory.Contains("bin"))
+            {
+                System.IO.Directory.SetCurrentDirectory(System.IO.Directory.GetParent(currentDirectory).FullName);
+                currentDirectory = System.IO.Directory.GetCurrentDirectory();
+                Console.WriteLine(currentDirectory);
+            }
         }
     }
 
