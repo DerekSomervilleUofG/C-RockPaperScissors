@@ -191,12 +191,10 @@ namespace Rock
         private void fixWorkingDirectory()
         {
             String currentDirectory = System.IO.Directory.GetCurrentDirectory();
-            Console.WriteLine(currentDirectory);
             while (currentDirectory.Contains("bin"))
             {
                 System.IO.Directory.SetCurrentDirectory(System.IO.Directory.GetParent(currentDirectory).FullName);
                 currentDirectory = System.IO.Directory.GetCurrentDirectory();
-                Console.WriteLine(currentDirectory);
             }
         }
     }
