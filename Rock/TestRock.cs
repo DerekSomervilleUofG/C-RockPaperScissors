@@ -13,7 +13,7 @@ namespace Rock.Tests
         public void testGenerateGamesRequest()
         {
             Rock rock = new Rock();
-            rock.setConfig(new ConfigFromStubb());
+            rock.SetConfig(new ConfigFromStubb());
             string result = rock.generateGamesListRequest();
             Assert.AreEqual("Please select 0 - Rock Paper Scissors 1 - Star Wars", result);
         }

@@ -9,25 +9,25 @@ namespace Rock
 {
     class Rock
     {
-        private Config config = new ConfigFromFile();
+        private Config _config = new ConfigFromFile();
 
-        private UserInput userInput = new ConsoleInput();
-        private UserOutput userOutput = new ConsoleOutput();
+        private UserInput _userInput = new ConsoleInput();
+        private UserOutput _userOutput = new ConsoleOutput();
 
-        private string[] property = new string[4];
+        private string[] _property = new string[4];
 
-        public void setUserInput(UserInput userInput)
+        public void SetUserInput(UserInput userInput)
         {
-            this.userInput = userInput;
+            this._userInput = userInput;
         }
-        public void setUserOutput(UserOutput userOutput)
+        public void SetUserOutput(UserOutput userOutput)
         {
-            this.userOutput = userOutput;
+            this._userOutput = userOutput;
         }
 
-        public void setConfig(Config config)
+        public void SetConfig(Config config)
         {
-            this.config = config;
+            this._config = config;
         }
 
         private string generateRequest(String[] weapons)
@@ -46,15 +46,15 @@ namespace Rock
         {
             String request;
             request = generateRequest(weapons);
-            this.userOutput.output(request);
+            this._userOutput.Output(request);
 
-            int userWeapon = this.userInput.getInputInt() - 1;
+            int userWeapon = this._userInput.GetInputInt() - 1;
 
             return userWeapon;
         }
         private void displayWinner(string winner)
         {
-            this.userOutput.output(winner);
+            this._userOutput.Output(winner);
         }
         private string determineWinner(String[] weaponList, int userWeapon, int computerWeapon)
         {
@@ -83,9 +83,9 @@ namespace Rock
         private string[] getWeaponList()
         {
             string request = this.generateGamesListRequest();
-            List<string[]> weaponLists = this.getWeaponLists(this.property);
-            this.userOutput.output(request);
-            int userGame = this.userInput.getInputInt();
+            List<string[]> weaponLists = this.getWeaponLists(this._property);
+            this._userOutput.Output(request);
+            int userGame = this._userInput.GetInputInt();
             return weaponLists[userGame];
         }
 
@@ -117,9 +117,9 @@ namespace Rock
         public List<string[]> getWeaponLists(string[] property)
         {
             List<string[]> weaponLists = new List<string[]>();
-            if (this.property is null)
+            if (this._property is null)
             {
-                this.property = config.getConfig();
+                this._property = _config.GetConfig();
             }
             for (int counter = 1; counter < property.Count(); counter++)
             {
@@ -132,11 +132,11 @@ namespace Rock
         {
             List<String> listOfGames = new List<String>();
 
-            this.property = config.getConfig();
+            this._property = _config.GetConfig();
 
-            for (int counter = 1; counter < this.property.Length; counter++)
+            for (int counter = 1; counter < this._property.Length; counter++)
             {
-                listOfGames.Add(this.property[counter].Split(":")[0]);
+                listOfGames.Add(this._property[counter].Split(":")[0]);
             }
             return listOfGames;
         }
@@ -161,12 +161,12 @@ namespace Rock
     }
     interface Config
     {
-        string[] getConfig();
+        string[] GetConfig();
     }
 
     class ConfigFromFile : Config
     {
-        public string[] getConfig()
+        public string[] GetConfig()
         {
 
             fixWorkingDirectory();
@@ -202,7 +202,7 @@ namespace Rock
     class ConfigFromStubb : Config
     {
 
-        public string[] getConfig()
+        public string[] GetConfig()
         {
             string[] propertyData = new string[4];
             propertyData.Append("Name:First,Second,Third");
@@ -214,30 +214,30 @@ namespace Rock
 
     interface UserInput
     {
-        string getInputString();
-        int getInputInt();
+        string GetInputString();
+        int GetInputInt();
     }
 
     class ConsoleInput : UserInput
     {
-        public string getInputString()
+        public string GetInputString()
         {
             return Console.ReadLine();
         }
-        public int getInputInt()
+        public int GetInputInt()
         {
-            return Convert.ToInt32(getInputString());
+            return Convert.ToInt32(GetInputString());
         }
     }
 
     interface UserOutput
     {
-        public void output(string output);
+        public void Output(string output);
     }
 
     class ConsoleOutput : UserOutput
     {
-        public void output(string output)
+        public void Output(string output)
         {
             Console.WriteLine(output);
         }
